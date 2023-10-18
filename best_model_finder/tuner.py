@@ -132,7 +132,7 @@ class Model_Finder:
             # create best model for Random Forest
             self.random_forest=self.get_best_params_for_random_forest(train_x,train_y)
             # we will using predict_proba in case of a multiclass classification as roc_auc_score needs predict_proba to calculate the score
-            self.=self.random_forest.predict_proba(test_x) # prediction using the Random Forest Algorithm
+            self.prediction_random_forest=self.random_forest.predict_proba(test_x) # prediction using the Random Forest Algorithm
 
             if len(test_y.unique()) == 1:#if there is only one label in y, then roc_auc_score returns error. We will use accuracy in that case
                 self.random_forest_score = accuracy_score(test_y,self.prediction_random_forest)

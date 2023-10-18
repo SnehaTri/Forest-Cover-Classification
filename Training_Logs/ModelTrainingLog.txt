@@ -1,0 +1,7 @@
+2023-10-19/00:54:41		Start of Training
+2023-10-19/00:54:41		Entered the get_data method of the Data_Getter class
+2023-10-19/00:54:43		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-19/00:56:13		Entered the elbow_plot method of the KMeansClustering class
+2023-10-19/00:59:55		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  [Errno 2] No such file or directory: 'preprocessing_data/K-Means_Elbow.PNG'
+2023-10-19/00:59:55		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2023-10-19/00:59:55		Unsuccessful End of Training
