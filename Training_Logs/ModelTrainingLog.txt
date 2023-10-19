@@ -5,3 +5,34 @@
 2023-10-19/00:59:55		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  [Errno 2] No such file or directory: 'preprocessing_data/K-Means_Elbow.PNG'
 2023-10-19/00:59:55		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
 2023-10-19/00:59:55		Unsuccessful End of Training
+2023-10-19/10:41:56		Start of Training
+2023-10-19/10:41:56		Entered the get_data method of the Data_Getter class
+2023-10-19/10:41:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-19/10:43:06		Entered the elbow_plot method of the KMeansClustering class
+2023-10-19/10:46:48		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-10-19/10:46:48		Entered the create_clusters method of the KMeansClustering class
+2023-10-19/10:47:09		Entered the save_model method of the File_Operation class
+2023-10-19/10:47:09		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-10-19/10:47:09		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-10-19/10:47:10		Entered the get_best_model method of the Model_Finder class
+2023-10-19/10:47:10		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-10-19/11:30:14		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  [Errno 22] Invalid argument
+2023-10-19/11:30:14		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-10-19/11:30:14		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2023-10-19/11:30:14		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-10-19/11:30:15		Unsuccessful End of Training
+2023-10-19/11:55:19		Start of Training
+2023-10-19/11:55:19		Entered the get_data method of the Data_Getter class
+2023-10-19/11:55:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-19/11:55:59		Entered the elbow_plot method of the KMeansClustering class
+2023-10-19/11:58:38		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-10-19/11:58:38		Entered the create_clusters method of the KMeansClustering class
+2023-10-19/11:58:48		Entered the save_model method of the File_Operation class
+2023-10-19/11:58:48		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-10-19/11:58:48		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-10-19/11:58:49		Entered the get_best_model method of the Model_Finder class
+2023-10-19/11:58:49		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-10-19/12:38:16		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 20, 'n_estimators': 200}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-10-19/12:38:26		Exception occured in get_best_model method of the Model_Finder class. Exception message:  'Model_Finder' object has no attribute 'xgboost_score'
+2023-10-19/12:38:26		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-10-19/12:38:26		Unsuccessful End of Training
